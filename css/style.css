@@ -1,0 +1,24 @@
+header {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+.font-lg {
+    font-size: 1.5rem;
+}
+main {
+    min-height: 75vh;
+}
+.input-label {
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+}
+@media only screen and (max-width:576px){
+    html{
+        font-size: 70%;
+    }
+    #case-study .card{
+        width: 80%;
+    }
+}
